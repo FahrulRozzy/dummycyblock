@@ -28,7 +28,6 @@ def get_dummy():
         "data": result
     })
 
-#
 # POST /update-dummy
 @dummy_bp.route("/update-dummy", methods=["POST"])
 def update_dummy():

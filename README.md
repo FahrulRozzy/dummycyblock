@@ -7,3 +7,7 @@ update http://localhost:5000/api/update-dummy
     "nc":"WZQR5449043",
     "blockbaru":"C.2.18.3"   
 }
+
+
+docker build -t nama .
+docker run nama
